@@ -5,15 +5,20 @@ A library provide function converting file size or memory size between different
 # Installation
 
 ```
-pip install fileSizeUtils
+pip install pyFileSizeUtils
 ```
 
 # Demo
 
 ```python
-import fileSizeUtils 
+import pyFileSizeUtils 
 ```
 
 ```python
-from fileSizeUtils import fun1
+from pyFileSizeUtils import BinarySize,SizeUnit
+
+oneMB = BinarySize.ofMBFromInt(1).inByte()
+print(oneKB.inByte()) # 1024
+
+
 ```

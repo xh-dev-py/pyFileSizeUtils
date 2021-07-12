@@ -5,13 +5,16 @@ with open("README.md", "r") as fh:
 
 
 setup(
-      name='fileSizeUtils',
-      version='0.0.1',
+      name='pyFileSizeUtils',
+      version='0.0.2',
       description='File size utils contains method for conversion between size unit like byte, kilobyte, megabyte...',
-      py_modules=['fileSizeUtils'],
+      py_modules=['pyFileSizeUtils'],
       package_dir={'':'src'},
       long_description=long_description,
       long_description_content_type="text/markdown",
+      url="https://github.com/xh-dev/pyFileSizeUtils",
+      author="xethhung",
+      author_email="pypi@xethh.dev",
       extras_require = {
         "dev": [
             "pytest>=3.7",
